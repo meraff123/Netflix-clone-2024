@@ -6,8 +6,6 @@ import NotificationsNoneRoundedIcon from '@mui/icons-material/NotificationsNone'
 import AccountBoxRoundedIcon from '@mui/icons-material/AccountBox'; // Adjust if you need a different icon
 import ArrowDropDownRoundedIcon from '@mui/icons-material/ArrowDropDown'; // Adjust if you need a different icon
 
-
-
 const Header = () => {
   return (
     <div className="header_outer_container">
