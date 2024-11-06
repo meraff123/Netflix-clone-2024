@@ -1,8 +1,10 @@
 {
+  "homepage": "https://meraff123.github.io/Netflix-clone-2024",
   "name": "netflix-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "-": "^0.0.1",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.4",
@@ -11,13 +13,20 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
+    "movie": "^1.0.1",
+    "movie-trailer": "^3.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-youtube": "^10.1.0",
+    "trailer": "^0.10.0",
+    "web-vitals": "^2.1.4",
+    "youtube": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -39,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "github-pages": "^3.0.2"
   }
 }
